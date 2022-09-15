@@ -1,17 +1,15 @@
 import classNames from "classnames/bind";
 import styles from "./Header.module.scss";
-import Button from "./Components/Button";
-
-// console.log(images)
+import Button1 from "./Components/Button1";
+import Button2 from "./Components/Button2";
 
 // FontAweSome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fa42Group, faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faGamepad, faHome, faMessage, faSearch, faStore, faUser, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faFacebookMessenger, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGamepad, faHome, faSearch, faStore, faTableCells, faUser, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+import { faBell } from "@fortawesome/free-regular-svg-icons";
 
 const cx = classNames.bind(styles)
-
-
 
 function Header() {
   return (
@@ -25,18 +23,18 @@ function Header() {
       </div>
 
       <div className={cx("inner2")}>
-          <Button icon={faHome} active />
-          <Button icon={faYoutube} />
-          <Button icon={faStore} />
-          <Button icon={faUserFriends} />
-          <Button icon={faGamepad} />
+          <Button1 icon={faHome} active content="Trang chủ" />
+          <Button1 icon={faYoutube} content="Watch"/>
+          <Button1 icon={faStore} content="Marketplace"/>
+          <Button1 icon={faUserFriends} content="Nhóm"/>
+          <Button1 icon={faGamepad} content="Trò chơi"/>
       </div>
 
       <div className={cx("inner3")}>
-        <Button icon={faBars}/>
-        <Button icon={faMessage}/>
-        <Button icon={faUser}/>
-
+        <Button2 icon={faTableCells} content="Menu"/>
+        <Button2 icon={faFacebookMessenger} content="Messenger"/>
+        <Button2 icon={faBell} content="Thông báo"/>
+        <Button2 src content="Tài khoản"/>
       </div>
     </header>
 

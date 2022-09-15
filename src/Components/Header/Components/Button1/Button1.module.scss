@@ -1,0 +1,50 @@
+.huhu {
+    display: flex;
+    flex-direction: column;
+
+    & + .huhu {
+        margin-left: 8px;
+    }
+}
+
+.button-link {
+    width: 112px;
+    height: 56px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.border-bottom {
+    width: 108px;
+    height: 4px;
+    background: var(--primary-color);
+}
+
+.wrapper {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+
+    &:hover {
+        background: var(--web-wash);
+        border-radius: 8px;
+
+    }
+
+}
+
+
+.icon-button {
+    width: 28px;
+    height: 28px;
+}

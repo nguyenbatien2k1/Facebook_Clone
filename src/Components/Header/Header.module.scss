@@ -2,7 +2,7 @@
     width: 1306px;
     height: 56px;
     background: #fff;
-    padding: 0 24px;
+    padding: 0 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,11 +57,14 @@
 .inner2 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex: 2;
 }
 
 .inner3 {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     flex: 1;
 }
 
