@@ -1,7 +1,11 @@
+import Header from "./Components/Header";
+import Content from "./Components/Content";
+
 function App() {
   return (
     <div className="App">
-      <h1>Tien iu Xuan</h1>
+      <Header></Header>
+      <Content></Content>
     </div>
   );
 }

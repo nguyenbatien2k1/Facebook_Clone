@@ -1,0 +1,40 @@
+.button-link {
+    // background: red;
+    width: 112px;
+    height: 56px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:active {
+        color: rgb(11, 87, 230);
+    }
+
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.wrapper {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+
+    &:hover {
+        background: var(--web-wash);
+        border-radius: 8px;
+
+    }
+
+}
+
+
+.icon-button {
+    width: 28px;
+    height: 28px;
+}
