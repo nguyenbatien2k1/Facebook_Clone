@@ -6,7 +6,7 @@ import Button2 from "./Components/Button2";
 // FontAweSome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faFacebookMessenger, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faGamepad, faHome, faSearch, faStore, faTableCells, faUser, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+import { faGamepad, faHome, faSearch, faStore, faTableCells, faUsersLine } from "@fortawesome/free-solid-svg-icons";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
 
 const cx = classNames.bind(styles)
@@ -26,7 +26,7 @@ function Header() {
           <Button1 icon={faHome} active content="Trang chủ" />
           <Button1 icon={faYoutube} content="Watch"/>
           <Button1 icon={faStore} content="Marketplace"/>
-          <Button1 icon={faUserFriends} content="Nhóm"/>
+          <Button1 icon={faUsersLine} content="Nhóm"/>
           <Button1 icon={faGamepad} content="Trò chơi"/>
       </div>
 

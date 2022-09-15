@@ -1,0 +1,25 @@
+.wrapper {
+    width: 265px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    cursor: pointer;
+
+    h4 {
+        width: 100%;
+        font-weight: 500;
+    }
+
+    &:hover {
+        background: #ECF3FF;
+        border-radius: 8px;
+    }
+}
+
+.imgOrIcon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 12px;
+}

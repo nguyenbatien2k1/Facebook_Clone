@@ -12,7 +12,7 @@ const cx = classNames.bind(styles);
 function Button1({ icon, active = false, content = false }) {
   return (
     <Tippy content={content}>
-      <div className={cx("huhu")}>
+      <div className={cx("container")}>
         <a
           className={cx("button-link", {
             active,

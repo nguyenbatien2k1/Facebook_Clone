@@ -11,10 +11,6 @@
     }
 }
 
-.active {
-    color: var(--primary-color);
-}
-
 .wrapper {
     height: 40px;
     width: 40px;
@@ -24,6 +20,10 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+
+    &:hover {
+        background: rgb(200, 200, 200);
+    }
 }
 
 

@@ -1,8 +1,8 @@
-.huhu {
+.container {
     display: flex;
     flex-direction: column;
 
-    & + .huhu {
+    & + .container {
         margin-left: 8px;
     }
 }
