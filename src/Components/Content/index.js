@@ -2,15 +2,15 @@ import classNames from "classnames/bind";
 import styles from "./Content.module.scss";
 
 import Button from "./Components/Button";
+import AddFriend from "./Components/AddFriend";
 
 import {
-  faBookmark,
   faChevronCircleDown,
-  faFlag,
-  faStore,
-  faUserGroup,
-  faUsersLine,
+  faEllipsis,
+  faRectangleAd,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Button1 from "../Header/Components/Button1";
 const cx = classNames.bind(styles);
 
 const arr = [
@@ -52,7 +52,7 @@ function Content() {
             <Button key={index} data={item}></Button>
           ))
         } */}
-        <div className={cx("border-bottom")}></div>
+        <div className={cx("border-bottom")}></div> 
         <div className={cx("container")}>
           <div className={cx("inner")}>
             <h4>Lối tắt của bạn</h4>
@@ -80,7 +80,29 @@ function Content() {
       <div className={cx("content")}>main</div>
 
       <div className={cx("sideBar-right")}>
-        
+        <div className={cx("container1")}>
+          <div className={cx("inner1")}>
+            <h4>Trang và trang cá nhân của bạn</h4>
+            <FontAwesomeIcon className={cx("icon_ellip")} icon={faEllipsis} />
+          </div>
+          <Button src={"https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/290492599_104069832363233_6709543810953852965_n.jpg?stp=cp0_dst-jpg_s40x40&_nc_cat=105&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=nDQ-Flb9CDgAX9IIZ2x&_nc_ht=scontent.fhan15-1.fna&oh=00_AT96zHwxrj9hnRleaHbUo0Srnd4JdnQPdGLtFtkeCvW7fA&oe=6329E6B6"} name={"Kiếm tiền online"}></Button>
+          <Button icon={faRectangleAd} name={"Tạo trang quảng cáo"}></Button>
+          <div className={cx("border-bottom")}></div>
+          
+          <div className={cx("inner2")}>
+            <h4>Lời mời kết bạn</h4>
+            <div className={cx("update2")}>Xem tất cả</div>
+            <br/>
+          </div>
+            <AddFriend src="https://img.meta.com.vn/Data/image/2022/03/15/anh-anime-chibi-3.jpg" name="Tu Tiên" />
+            <AddFriend src="https://scontent.xx.fbcdn.net/v/t39.30808-1/305810068_155170827128419_4184976533105176831_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=jDQ4qNoCleUAX9mEr46&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=00_AT_IlwNYe5XKmeAEi8MO5FCgelqnDwn0n43FG-LwZbN_Cw&oe=632A11A0" name="Nguyễn Hoàng Long" />
+            <div className={cx("border-bottom")}></div>
+
+          <div className={cx("inner3")}>
+            <h4>Sinh nhật</h4>
+            
+          </div>
+        </div>
       </div>
     </div>
   );

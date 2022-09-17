@@ -8,7 +8,7 @@
 
 // SideBar Left
 .sideBar-left {
-    width: 282px;
+    width: 288px;
     height: 726px;
     padding: 16px 12px;
     overflow: hidden;
@@ -32,10 +32,6 @@
     /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
         background: #8D949E;
-    }
-
-    &::-webkit-scrollbar-button {
-        height: 10px; //for vertical scrollbar
     }
 
     &:hover {
@@ -107,16 +103,87 @@
 // SideBar Right
 .sideBar-right {
     height: 726px;
-    background: yellow;
-    width: 282px;
+    width: 300px;
     padding: 8px 0px 0px;
+    overflow: hidden;
 
-    
+    /* width */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: var(--web-wash);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #b2b3b4;
+        border-radius: 4px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #8D949E;
+    }
+
+    &:hover {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+.container1 {
+    padding: 8px;
+}
+
+.inner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 282px;
+    height: 57px;
+
+    & h4 {
+        height: auto;
+        width: 222px;
+        font-size: 18px;
+        font-weight: 450;
+    }
+}
+
+.inner2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 282px;
+    margin-bottom: 8px;
+}
+
+.icon_ellip {
+    margin-top: -28px;
+}
+
+.update2 {
+    font-size: 14px;
+    color: rgb(15, 103, 218);
+    font-weight: 400;
+    margin-left: 86px;
+    padding: 6px 6px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(203, 203, 203);
+        border-radius: 4px;
+    }
 }
 
 .border-bottom {
     margin-top: 8px;
-    width: 262px;
+    margin-bottom: 20px;
+    width: 280px;
     height: 1px;
     background: rgb(168, 167, 167);
+    
 }
