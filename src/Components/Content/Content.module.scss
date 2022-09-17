@@ -5,31 +5,118 @@
     background: var(--web-wash);
 }
 
+
+// SideBar Left
 .sideBar-left {
     width: 282px;
     height: 726px;
-    background: greenyellow;
-    padding: 12px 12px;
-    overflow-y: scroll;
+    padding: 16px 12px;
+    overflow: hidden;
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: var(--web-wash);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #b2b3b4;
+        border-radius: 4px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #8D949E;
+    }
+
+    &::-webkit-scrollbar-button {
+        height: 10px; //for vertical scrollbar
+    }
+
+    &:hover {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
 }
 
+
+.container {
+    width: 282px;
+    height: 45px;
+
+    &:hover .update {
+        display: flex;
+    }
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.update {
+    display: none;
+    margin-left: 60px;
+    font-size: 15px;
+    color: rgb(15, 103, 218);
+    font-weight: 450;
+    padding: 6px 4px;
+
+    &:hover {
+        background: #E4E6EB;
+        border-radius: 4px;
+    }
+}
+
+
+
+.list-ul {
+    margin-top: 12px;
+    list-style-type: square;
+
+}
+
+.list-ul li {
+    margin-right: 6px;
+    display: inline-block;
+    font-size: 14px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+// Content
 .content {
+    min-height: 726px;
     background: rebeccapurple;
     flex: 1;
     padding: 6px 12px;
 
 }
 
+// SideBar Right
 .sideBar-right {
+    height: 726px;
     background: yellow;
     width: 282px;
-    min-height: 726px;
     padding: 8px 0px 0px;
+
+    
 }
 
 .border-bottom {
     margin-top: 8px;
-    width: 100%;
+    width: 262px;
     height: 1px;
-    background: rgb(156, 155, 155);
+    background: rgb(168, 167, 167);
 }
