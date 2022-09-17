@@ -8,7 +8,7 @@
 
 // SideBar Left
 .sideBar-left {
-    width: 288px;
+    width: 300px;
     height: 726px;
     padding: 16px 12px;
     overflow: hidden;
@@ -163,7 +163,17 @@
 
 .icon_ellip {
     margin-top: -28px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+
+    &:hover {
+        background: rgb(194, 191, 191);
+    }
 }
+
 
 .update2 {
     font-size: 14px;
@@ -176,6 +186,34 @@
     &:hover {
         background: rgb(203, 203, 203);
         border-radius: 4px;
+    }
+}
+
+.inner3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 282px;
+    margin-bottom: 8px;
+}
+
+.list-icon {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    cursor: pointer;
+
+}
+
+.icon-item {
+    width: 16px;
+    height: 100%;
+    margin-right: 6px;
+    border-radius: 9999px;
+    padding: 4px;
+
+    &:hover {
+        background: rgb(194, 191, 191);
     }
 }
 

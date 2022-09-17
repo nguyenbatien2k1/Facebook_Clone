@@ -4,24 +4,25 @@ import styles from "./Button.module.scss";
 
 const cx = classNames.bind(styles);
 
-function Button({ icon = false, name, src}) {
-  if (icon) {
+function Button({data = {}}) {
+  
+  if (data.icon) {
     return (
       <div className={cx("wrapper")}>
-        <FontAwesomeIcon className={cx("icon")} icon={icon}></FontAwesomeIcon>
-        <h4>{name}</h4>
+        <FontAwesomeIcon className={cx("icon")} icon={data.icon}></FontAwesomeIcon>
+        <h4>{data.name}</h4>
       </div>
     );
   }
 
-  if (src) {
+  if (data.src) {
     return (
       <div className={cx("wrapper")}>
         <img
           className={cx("img")}
-          src={src}
+          src={data.src}
         ></img>
-        <h4>{name}</h4>
+        <h4>{data.name}</h4>
       </div>
     );
   }
