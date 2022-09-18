@@ -135,3 +135,22 @@ export const addFriends = [
     mutualFriends: 1,
   },
 ];
+
+export const news = [
+  {
+    name: "Trần Đăng Tuấn",
+    srcAvatar: "https://scontent.fsgn5-2.fna.fbcdn.net/v/t51.36329-10/307096862_784800889392739_1320051031022771706_n.jpg?stp=dst-jpg_s280x280&_nc_cat=105&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=zPVRUcDrrZ0AX82tTVG&_nc_ht=scontent.fsgn5-2.fna&oh=00_AT9BkKt3KKDkoZeN4l6TOC8lHzlBbU_bd6EPvRkPt5L7OQ&oe=632AE037",
+    srcImg: "https://scontent.fsgn5-2.fna.fbcdn.net/v/t51.36329-10/307096862_784800889392739_1320051031022771706_n.jpg?stp=dst-jpg_s280x280&_nc_cat=105&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=zPVRUcDrrZ0AX82tTVG&_nc_ht=scontent.fsgn5-2.fna&oh=00_AT9BkKt3KKDkoZeN4l6TOC8lHzlBbU_bd6EPvRkPt5L7OQ&oe=632AE037"
+  },
+  {
+    name: "VNPAY-QR",
+    srcAvatar: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/302417062_877589383627362_7912707899809956614_n.jpg?stp=dst-jpg_s280x280&_nc_cat=108&ccb=1-7&_nc_sid=535e6e&_nc_ohc=pwgG9YzcTmUAX8aVlsR&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8a_dNc6lRzOSaqqe91J7eVJRIDsCz_rZu2O19yK02GXw&oe=632C13D9",
+    srcImg: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/302417062_877589383627362_7912707899809956614_n.jpg?stp=dst-jpg_s280x280&_nc_cat=108&ccb=1-7&_nc_sid=535e6e&_nc_ohc=pwgG9YzcTmUAX8aVlsR&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8a_dNc6lRzOSaqqe91J7eVJRIDsCz_rZu2O19yK02GXw&oe=632C13D9"
+  },
+  {
+    name: "ZaloPay",
+    srcAvatar: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/307363365_5534977939902501_7458530238014905494_n.jpg?stp=dst-jpg_s280x280&_nc_cat=108&ccb=1-7&_nc_sid=535e6e&_nc_ohc=KZS6HSjnz24AX_Y8YZS&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8yBa3esGFz4YzGb6dWX8IAESPkYwSeM11sRlK-7MYPtg&oe=632B892B",
+    srcImg: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/307363365_5534977939902501_7458530238014905494_n.jpg?stp=dst-jpg_s280x280&_nc_cat=108&ccb=1-7&_nc_sid=535e6e&_nc_ohc=KZS6HSjnz24AX_Y8YZS&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8yBa3esGFz4YzGb6dWX8IAESPkYwSeM11sRlK-7MYPtg&oe=632B892B"
+  },
+  
+]

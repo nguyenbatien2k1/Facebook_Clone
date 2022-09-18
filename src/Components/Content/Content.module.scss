@@ -94,10 +94,13 @@
 // Content
 .content {
     min-height: 726px;
-    background: rebeccapurple;
-    flex: 1;
-    padding: 6px 12px;
-
+    // flex: 1;
+    width: 706px;
+    padding: 0px 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 // SideBar Right

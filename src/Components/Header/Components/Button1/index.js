@@ -3,7 +3,6 @@ import classNames from "classnames/bind";
 import styles from "./Button1.module.scss";
 
 // Tippy
-// import Tippy from "@tippyjs/react/headless";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 

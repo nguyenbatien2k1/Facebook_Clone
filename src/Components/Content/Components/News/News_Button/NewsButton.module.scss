@@ -1,0 +1,25 @@
+.newsButton {
+    width: 156px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #65676B;
+    cursor: pointer;
+
+    &:not(.active):hover {
+        background: var(--web-wash);
+        border-radius: 6px;
+    }
+
+    &.active {
+        color: #1876F2;
+        font-weight: bold;
+    }
+}
+
+.border-bottom {
+    margin-top: 2px;
+    width: 156px;
+    height: 3px;
+    background: #1876F2;
+}

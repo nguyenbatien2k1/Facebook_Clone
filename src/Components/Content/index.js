@@ -3,6 +3,7 @@ import styles from "./Content.module.scss";
 
 import Button from "./Components/Button";
 import AddFriend from "./Components/AddFriend";
+import News from "./Components/News";
 
 import {
   faChevronCircleDown,
@@ -54,7 +55,9 @@ function Content() {
         </div>
       </div>
 
-      <div className={cx("content")}>main</div>
+      <div className={cx("content")}>
+          <News />
+      </div>
 
       <div className={cx("sideBar-right")}>
         <div className={cx("container1")}>
