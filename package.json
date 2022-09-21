@@ -1,7 +1,7 @@
 {
   "name": "facebook",
   "version": "0.1.0",
-  "home": "https://github.com/nguyenbatien2k1/Facebook_Clone",
+  "home": "https://github.com/nguyenbatien2k1/Facebook_Clone/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.3.0",
