@@ -1,0 +1,26 @@
+.boxbutton {
+    width: 143px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    & span {
+        font-size: 15px;
+        color: #65676B;
+    }
+
+    &:hover {
+        background: var(--web-wash);
+        border-radius: 6px;
+    }
+}
+
+
+.icon {
+    width: 18px;
+    height: 18px;
+    color: #65676B;
+    margin-right: 8px;
+}

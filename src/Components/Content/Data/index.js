@@ -1,6 +1,8 @@
+import { faComment, faThumbsUp } from "@fortawesome/free-regular-svg-icons";
 import {
   faChevronCircleDown,
   faRectangleAd,
+  faShare,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const arr = [
@@ -153,4 +155,19 @@ export const news = [
     srcImg: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/307363365_5534977939902501_7458530238014905494_n.jpg?stp=dst-jpg_s280x280&_nc_cat=108&ccb=1-7&_nc_sid=535e6e&_nc_ohc=KZS6HSjnz24AX_Y8YZS&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8yBa3esGFz4YzGb6dWX8IAESPkYwSeM11sRlK-7MYPtg&oe=632B892B"
   },
   
+]
+
+export const boxBtns = [
+  {
+    icon: faThumbsUp,
+    title: "Thích"
+  },
+  {
+    icon: faComment,
+    title: "Bình luận"
+  },
+  {
+    icon: faShare,
+    title: "Chia sẻ"
+  }
 ]

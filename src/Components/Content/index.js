@@ -17,6 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // Data
 import {arr, shortcuts, personalPage, addFriends, friends} from "./Data"
 import Status from "./Components/Status";
+import Box from "./Components/Box";
 
 
 const cx = classNames.bind(styles);
@@ -59,6 +60,10 @@ function Content() {
       <div className={cx("content")}>
           <News />
           <Status />
+          <Box />
+          <Box />
+          <Box />
+          <Box />
       </div>
 
       <div className={cx("sideBar-right")}>

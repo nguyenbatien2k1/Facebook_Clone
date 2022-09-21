@@ -12,6 +12,9 @@
     height: 726px;
     padding: 16px 12px;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+
 
     /* width */
     &::-webkit-scrollbar {
@@ -100,7 +103,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
+    margin-left: 300px;
 }
 
 // SideBar Right
@@ -109,6 +112,8 @@
     width: 300px;
     padding: 8px 0px 0px;
     overflow: hidden;
+    position: fixed;
+    right: 0;
 
     /* width */
     &::-webkit-scrollbar {
