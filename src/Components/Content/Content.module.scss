@@ -1,8 +1,8 @@
 .main {
     margin-top: 56px;
-    display: flex;
-    justify-content: space-between;
     background: var(--web-wash);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -13,8 +13,8 @@
     padding: 16px 12px;
     overflow: hidden;
     position: fixed;
+    top: 56px;
     left: 0;
-
 
     /* width */
     &::-webkit-scrollbar {
@@ -97,13 +97,11 @@
 // Content
 .content {
     min-height: 726px;
-    // flex: 1;
     width: 706px;
     padding: 0px 32px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 300px;
 }
 
 // SideBar Right
@@ -113,6 +111,7 @@
     padding: 8px 0px 0px;
     overflow: hidden;
     position: fixed;
+    top: 56px;
     right: 0;
 
     /* width */

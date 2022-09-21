@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import GlobalStyles from './Components/GlobalStyles';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import GlobalStyles from "./Components/GlobalStyles";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.Fragment>
     <GlobalStyles>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </GlobalStyles>
   </React.Fragment>
 );

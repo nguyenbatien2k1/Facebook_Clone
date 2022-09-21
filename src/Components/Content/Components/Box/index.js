@@ -11,7 +11,6 @@ const cx = classNames.bind(styles)
 
 function Box() {
 
-    console.log(boxBtns)
     return ( 
         <div className={cx("box")}>
             <div className={cx("wrapper")}>
