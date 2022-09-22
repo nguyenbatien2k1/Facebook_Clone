@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames/bind";
 import styles from "./Button2.module.scss";
 
-import img from "~/assets/images/imgLeft/nguyenbatien.png";
+import img from "~/assets/images/shortcuts/nguyenbatien.png";
 
 // Tippy
 // import Tippy from "@tippyjs/react/headless";
