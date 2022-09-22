@@ -9,7 +9,7 @@
 // SideBar Left
 .sideBar-left {
     width: 300px;
-    height: 565px;
+    height: calc(100vh - 56px);
     padding: 16px 12px;
     overflow: hidden;
     position: fixed;
@@ -106,7 +106,7 @@
 
 // SideBar Right
 .sideBar-right {
-    height: 565px;
+    height: calc(100vh - 56px);
     width: 300px;
     padding: 8px 0px 0px;
     overflow: hidden;
