@@ -4,11 +4,11 @@ import styles from "./Content.module.scss";
 import Button from "./Components/Button";
 import AddFriend from "./Components/AddFriend";
 import News from "./Components/News";
+import { boxes } from "~/Components/Content/Data";
+
 
 import {
-  faChevronCircleDown,
   faEllipsis,
-  faRectangleAd,
   faSearch,
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +21,6 @@ import Box from "./Components/Box";
 
 
 const cx = classNames.bind(styles);
-
 
 function Content() {
   return (
@@ -60,10 +59,11 @@ function Content() {
       <div className={cx("content")}>
           <News />
           <Status />
-          <Box />
-          <Box />
-          <Box />
-          <Box />
+          {
+            boxes.map((item, index) => (
+              <Box key={index} data={item} />
+            ))
+          }
       </div>
 
       <div className={cx("sideBar-right")}>

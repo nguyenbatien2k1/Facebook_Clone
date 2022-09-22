@@ -5,8 +5,6 @@ import NewsButton from "./News_Button";
 import NewsItem from "./News_Item";
 
 import { news } from "~/Components/Content/Data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const cx = classNames.bind(styles);
 

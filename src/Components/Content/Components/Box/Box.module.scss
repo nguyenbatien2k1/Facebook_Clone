@@ -42,10 +42,22 @@
     }
 }
 
+.checked {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/YwJGgsZAKPa.png);
+    background-position: -115px -164px;
+    background-size: auto;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
 .time {
     color: gray;
     font-size: 12px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 
     &:hover {
         text-decoration: underline;
@@ -70,6 +82,7 @@
 }
 
 .main-img {
+    margin: 8px 0px;
     width: 500px;
     height: 386px;
     margin-left: -16px;
@@ -78,7 +91,6 @@
 .comment {
     display: flex;
     height: 43px;
-    justify-content: space-between;
     align-items: center;
 }
 
