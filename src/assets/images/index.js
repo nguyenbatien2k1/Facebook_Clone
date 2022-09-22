@@ -29,9 +29,9 @@ const images = {
   },
   news: {
     src1: require("~/assets/images/news/nguyenbatien.png"),
-    src2: require("~/assets/images/news/nguyenkimquyen.png"),
-    src3: require("~/assets/images/news/nguyenbatien.png"),
-    src4: require("~/assets/images/news/nguyenbatien.png"),
+    src2: require("~/assets/images/news/kimquyen.png"),
+    src3: require("~/assets/images/news/thehanh.png"),
+    src4: require("~/assets/images/news/lethihuong.png"),
   },
   boxes: {
     src1: require("~/assets/images/boxes/avatar1.png"),
@@ -47,8 +47,7 @@ const images = {
     src6: require("~/assets/images/boxes/avatar6.png"),
     box6: require("~/assets/images/boxes/box6.png"),
     checked: require("~/assets/images/boxes/checked.png"),
-
-  },
+  }
 };
 
 export default images;

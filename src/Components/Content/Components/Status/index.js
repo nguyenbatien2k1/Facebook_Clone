@@ -1,13 +1,15 @@
 import classNames from "classnames/bind";
 import styles from "./Status.module.scss";
 
+import images from "~/assets/images";
+
 const cx = classNames.bind(styles)
 
 function Status() {
     return (
         <div className={cx("status")}>
             <div className={cx("wrapper")}>
-                <img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-1/305573503_1717436901948469_3978030599460626886_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=7206a8&_nc_ohc=6_sd9Yhhy38AX-Svaly&_nc_ht=scontent.fhan5-7.fna&oh=00_AT_VcSddAUm3ucQVeFdDXLcIam6vZU1tX5hkIUC329kbjg&oe=632E0B66"></img>
+                <img src={images.news.src1}></img>
                 <button className={cx("btn-search")}>
                     <span>Tiên ơi, bạn đang nghĩ gì thế?</span>
                 </button>

@@ -4,9 +4,11 @@ import styles from "./News.module.scss";
 import NewsButton from "./News_Button";
 import NewsItem from "./News_Item";
 
-import { news } from "~/Components/Content/Data";
+import {news} from "~/Components/Content/Data";
 
 const cx = classNames.bind(styles);
+
+console.log(news)
 
 function News() {
   return (
